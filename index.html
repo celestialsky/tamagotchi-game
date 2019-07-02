@@ -1,10 +1,60 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
+  <body background = "tama-bg.jpg">
+    <h1>Let's make a tamagotchi!</h1>
+    <button>Friendship!</button>
     <script src="app.js" charset="utf-8"></script>
   </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TAMAGOTCHI LIFE</title>
+<link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body background = 'tama-bg.jpg'>
+<h1><img src="Tamagotchi!_logo.gif" alt="NAKAMA" style="width:339px; height:89px"></h1>
+<h3>Let's make new friends!</h3>
+<div class="text-center">
+	<!-- Button HTML (to Trigger Modal) -->
+	<a href="#myModal" class="trigger-btn" data-toggle="modal">Friendship!</a>
+</div>
+
+<!-- Modal HTML -->
+<div id="myModal" class="modal fade">
+	<div class="modal-dialog modal-confirm">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="icon-box">
+					<!---i class="material-icons"&#xE5CD;---><!---/i--->
+				</div>
+				<h4 class="modal-title">Choose this tamagotchi?</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<p>It'll be your new friend you'll be taking care of</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-info" data-dismiss="modal">Maybe Next Time</button>
+				<button type="button" class="btn btn-danger">This one!</button>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
 </html>
