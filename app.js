@@ -1,19 +1,18 @@
-// const button = document.querySelect('')
-//
-// function myFunction() {
-//   var txt;
-//   var person = prompt("Please enter your name:", "Harry Potter");
-//   if (person == null || person == "") {
-//     txt = "User cancelled the prompt.";
-//   } else {
-//     txt = "Hello " + person + "! How are you today?";
-//   }
-//   document.getElementById("demo").innerHTML = txt;
-// }
-//
-//
-//
-//
-//
-//
-// $('#myModal').modal('hide');
+const submitNameBtn = document.querySelector('#submit-name')
+const modal = document.querySelector('.trigger-btn')
+console.log(submitNameBtn);
+ submitNameBtn.addEventListener('click',()=> {
+   const name = document.querySelector('#firstname').value
+   game.createFriend(name)
+   modal.style.visibility = 'hidden'
+ })
+
+
+ const game = {
+
+   createFriend(name) {
+     const friend = new Friend()
+     friend.initFriend(name)
+     }
+
+   }

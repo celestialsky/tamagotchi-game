@@ -28,15 +28,15 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body background = 'images/tama-bg.jpg' class= "tamabg">
-<h1><img src="images/Tamagotchi!_logo.gif" alt="NAKAMA" style="width:339px; height:89px"></h1>
-<h3>Let's make new friends!</h3>
+	<h1><img src="images/Tamagotchi!_logo.gif" alt="NAKAMA" style="width:339px; height:89px"></h1>
+	<h3>Let's make new friends!</h3>
 <div class="text-center">
 	<!-- Button HTML (to Trigger Modal) -->
 	<a href="#myModal" class="trigger-btn" data-toggle="modal">Friendship!</a>
 </div>
-<div class="text-center">
+<!-- <div class="text-center">
 	<img src="images/ichigo_reading.png">
-</div>
+</div> -->
 
 <!-- Modal HTML -->
 <div id="myModal" class="modal fade">
@@ -45,20 +45,31 @@
 			<div class="modal-header">
 				<h4 class="modal-title">Name your Tamagotchi!</h4>
 				<div class="icon-box">
-
 				</div>
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 			</div>
 			<div class="modal-body">
-				<input type="text" name="firstname">
+				<input type="text" name="firstname" id= 'firstname'>
 			</div>
 			<div class="modal-footer">
 				<p>It'll be your new friend you'll be taking care of</p>
 				<button type="button" class="btn btn-info" data-dismiss="modal">Maybe Next Time</button>
-				<button type="button" class="btn btn-danger">Let's go!</button>
+				<button type="button" class="btn btn-danger" data-dismiss ="modal" id ="submit-name">Let's go!</button>
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="text-center" id="tamaimage">
+<!--images that can update goes here-->
+</div>
+
+<div class="bottom" id="statusdisplay">
+	<span id ="name"></span>
+	<span id="sleep"></span>
+	<span id="bored"></span>
+	<span id="hunger">Hunger: </span>
+	<span id="age"></span>
 </div>
 
 <div class="text-center">
@@ -69,6 +80,9 @@
 		<button class= "button" id= "feed">sleep</button>
 	</section>
 </div>
+
+<script src="app.js" charset="utf-8"></script>
+<script src="class.js" charset="utf-8"></script>
 
 </body>
 </html>
