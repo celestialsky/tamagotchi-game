@@ -27,12 +27,15 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
-<body background = 'tama-bg.jpg'>
-<h1><img src="Tamagotchi!_logo.gif" alt="NAKAMA" style="width:339px; height:89px"></h1>
+<body background = 'images/tama-bg.jpg' class= "tamabg">
+<h1><img src="images/Tamagotchi!_logo.gif" alt="NAKAMA" style="width:339px; height:89px"></h1>
 <h3>Let's make new friends!</h3>
 <div class="text-center">
 	<!-- Button HTML (to Trigger Modal) -->
 	<a href="#myModal" class="trigger-btn" data-toggle="modal">Friendship!</a>
+</div>
+<div class="text-center">
+	<img src="images/ichigo_reading.png">
 </div>
 
 <!-- Modal HTML -->
@@ -40,21 +43,32 @@
 	<div class="modal-dialog modal-confirm">
 		<div class="modal-content">
 			<div class="modal-header">
+				<h4 class="modal-title">Name your Tamagotchi!</h4>
 				<div class="icon-box">
-					<!---i class="material-icons"&#xE5CD;---><!---/i--->
+
 				</div>
-				<h4 class="modal-title">Choose this tamagotchi?</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 			</div>
 			<div class="modal-body">
-				<p>It'll be your new friend you'll be taking care of</p>
+				<input type="text" name="firstname">
 			</div>
 			<div class="modal-footer">
+				<p>It'll be your new friend you'll be taking care of</p>
 				<button type="button" class="btn btn-info" data-dismiss="modal">Maybe Next Time</button>
-				<button type="button" class="btn btn-danger">This one!</button>
+				<button type="button" class="btn btn-danger">Let's go!</button>
 			</div>
 		</div>
 	</div>
 </div>
+
+<div class="text-center">
+	<section class= "commands">
+		<p>What would you like to do?</p>
+		<button class= "button" id= "feed">Feed</button>
+		<button class= "button" id= "play">play</button>
+		<button class= "button" id= "feed">sleep</button>
+	</section>
+</div>
+
 </body>
 </html>

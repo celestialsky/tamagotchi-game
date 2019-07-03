@@ -47,7 +47,7 @@ border-radius: 50%;
 z-index: 9;
 text-align: center;
 }
-.modal-confirm .icon-box i {
+.modal-confirm .icon-box  {
 color: #f15e5e;
 font-size: 46px;
 display: inline-block;
@@ -88,4 +88,18 @@ font-size: 30px
 h3{
 font-family: 'Barriecito', cursive;
 padding: 0 40px
+}
+
+
+.commands{
+  font-family: 'Barriecito', cursive;
+  font-size: 24px;
+  color: #551A8B;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #fff;
+  padding-top: 20px
+}
+
+.button{
+
 }
