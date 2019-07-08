@@ -1,32 +1,24 @@
-<!-- <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body background = "tama-bg.jpg">
-    <h1>Let's make a tamagotchi!</h1>
-    <button>Friendship!</button>
-    <script src="app.js" charset="utf-8"></script>
-  </body>
-</html> -->
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TAMAGOTCHI LIFE</title>
-<link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="style.css">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+
+		<title>TAMAGOTCHI LIFE</title>
+		<!--div class="text-center">
+				<h4 id= "timer">Time: 0</h4>
+		</div-->
+	</head>
 <body background = 'images/tama-bg.jpg' class= "tamabg">
 	<h1><img src="images/Tamagotchi!_logo.gif" alt="NAKAMA" style="width:339px; height:89px"></h1>
 	<h3>Let's make new friends!</h3>
@@ -64,20 +56,21 @@
 <!--images that can update goes here-->
 </div>
 
-<div class="bottom" id="statusdisplay">
-	<span id ="name"></span>
-	<span id="sleep"></span>
-	<span id="bored"></span>
-	<span id="hunger">Hunger: </span>
-	<span id="age"></span>
+<div class="text-center" id="statusdisplay">
+	<h2>Status</h2>
+	<span id ="name">Name:  </span>
+	<span id="sleep">Sleep: 0 </span>
+	<span id="bored">Boredom: 0 </span>
+	<span id="hunger">Hunger: 0 </span>
+	<span id="age">Age: 1 </span>
 </div>
 
 <div class="text-center">
 	<section class= "commands">
 		<p>What would you like to do?</p>
 		<button class= "button" id= "feed">Feed</button>
-		<button class= "button" id= "play">play</button>
-		<button class= "button" id= "feed">sleep</button>
+		<button class= "button" id= "play">Play</button>
+		<button class= "button" id= "sleep">Sleep</button>
 	</section>
 </div>
 

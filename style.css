@@ -1,88 +1,102 @@
 body {
-font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
+
 .modal-confirm {
-color: #636363;
-width: 400px;
+  color: #636363;
+  width: 400px;
 }
+
 .modal-confirm .modal-content {
-padding: 20px;
-border-radius: 5px;
-border: none;
-text-align: center;
-font-size: 14px;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 14px;
 }
+
 .modal-confirm .modal-header {
-border-bottom: none;
-position: relative;
+  border-bottom: none;
+  position: relative;
 }
+
 .modal-confirm h4 {
-text-align: center;
-font-size: 26px;
-margin: 30px 0 -10px;
+  text-align: center;
+  font-size: 26px;
+  margin: 30px 0 -10px;
 }
+
 .modal-confirm .close {
     position: absolute;
-top: -5px;
-right: -2px;
+    top: -5px;
+    right: -2px;
 }
+
 .modal-confirm .modal-body {
-color: #999;
+  color: #999;
 }
+
 .modal-confirm .modal-footer {
-border: none;
-text-align: center;
-border-radius: 5px;
-font-size: 13px;
-padding: 10px 15px 25px;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 10px 15px 25px;
 }
+
 .modal-confirm .modal-footer a {
-color: #999;
+  color: #999;
 }
+
 .modal-confirm .icon-box {
-
-
-margin: 0 auto;
-border-radius: 50%;
-z-index: 9;
-text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  z-index: 9;
+  text-align: center;
 }
+
 .modal-confirm .icon-box  {
-color: #f15e5e;
-font-size: 46px;
-display: inline-block;
-margin-top: 13px;
+  color: #f15e5e;
+  font-size: 46px;
+  display: inline-block;
+  margin-top: 13px;
 }
+
 .modal-confirm .btn {
     color: #fff;
     border-radius: 4px;
-background: #60c7c1;
-text-decoration: none;
-transition: all 0.4s;
+    background: #60c7c1;
+    text-decoration: none;
+    transition: all 0.4s;
     line-height: normal;
-min-width: 120px;
+    min-width: 120px;
     border: none;
-min-height: 40px;
-border-radius: 3px;
-margin: 0 5px;
-outline: none !important;
+    min-height: 40px;
+    border-radius: 3px;
+    margin: 0 5px;
+    outline: none !important;
 }
+
 .modal-confirm .btn-info {
     background: #c1c1c1;
 }
+
 .modal-confirm .btn-info:hover, .modal-confirm .btn-info:focus {
     background: #a8a8a8;
 }
+
 .modal-confirm .btn-danger {
     background: #ffa200;
 }
+
 .modal-confirm .btn-danger:hover, .modal-confirm .btn-danger:focus {
     background: #ffbf00;
 }
+
 .trigger-btn {
-display: inline-block;
-margin: 100px auto;
-font-size: 30px
+  display: inline-block;
+  margin: 100px auto;
+  font-size: 30px
 }
 
 h3{
@@ -100,6 +114,8 @@ padding: 0 40px
   padding-top: 20px
 }
 
-.button{
-
+span{
+  font-family: 'Barriecito', cursive;
+  font-size: 20px;
+  margin: 11px;
 }
